@@ -8,4 +8,9 @@
         $query = $this->db->get('people');
         return $query->result_array();
       }
+
+      $query = $this->db->get_where('people', array('slug' => $slug));
+      return $query->row_array();
+
+    }
   }

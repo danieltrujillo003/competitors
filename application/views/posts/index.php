@@ -9,7 +9,7 @@
       <?php foreach($people as $ppl) : ?>
       <tr>
         <td><?php echo $ppl['position']; ?></td>
-        <td><?php echo $ppl['nombre']; ?></td>
+        <td><a href="<?php echo site_url('/posts/'.$ppl['slug']); ?>"><?php echo $ppl['nombre']; ?></a></td>
       </tr>
       <?php endforeach; ?>
     </tbody>

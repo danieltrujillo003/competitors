@@ -117,9 +117,6 @@ $autoload['config'] = array();
 $autoload['language'] = array();
 
 /*
-| -------------------------------------------------------------------
-|  Auto-load Models
-| -------------------------------------------------------------------
 | Prototype:
 |
 |	$autoload['model'] = array('first_model', 'second_model');
@@ -129,4 +126,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('post_model');
