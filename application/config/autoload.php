@@ -42,13 +42,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $autoload['packages'] = array();
 
 /*
-| -------------------------------------------------------------------
-|  Auto-load Libraries
-| -------------------------------------------------------------------
 | These are the classes located in system/libraries/ or your
-| application/libraries/ directory, with the addition of the
-| 'database' library, which is somewhat of a special case.
-|
+| application/libraries/ directory.
+
 | Prototype:
 |
 |	$autoload['libraries'] = array('database', 'email', 'session');
@@ -58,7 +54,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('form_validation' => 'fv');
 
 /*
 | -------------------------------------------------------------------
@@ -86,7 +82,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url'); /* It enables base_url(); */
+$autoload['helper'] = array('url','form'); /* It enables base_url(); */
 
 /*
 | -------------------------------------------------------------------

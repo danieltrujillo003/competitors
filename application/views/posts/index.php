@@ -14,3 +14,5 @@
       <?php endforeach; ?>
     </tbody>
   </table>
+
+  <h4><a href="<?php echo base_url('/posts/add'); ?>">Add</a></h4>
