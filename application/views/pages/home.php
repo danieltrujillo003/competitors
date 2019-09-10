@@ -1,1 +1,1 @@
-<h2><?= $title ?></h2> <!-- To get title from $data array -->
+<p>Home Home Home</p>

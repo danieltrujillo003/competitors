@@ -1,1 +1,1 @@
-<h2><?= $title ?></h2> <!-- To get title from $data array -->
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi magnam, voluptate ad dolorem nesciunt eveniet. Dignissimos dolorum corrupti voluptates iure ratione sit! Delectus obcaecati explicabo eius, corrupti dignissimos commodi tenetur!</p>
